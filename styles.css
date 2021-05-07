@@ -15,7 +15,21 @@ footer {
   height: 500px;
   background-color: black;
 }
-/* 
-nav {
 
-} */
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  width: 500px;
+  justify-content: space-around;
+  font-size: 30px;
+}
+
+li {
+  /* width: 200px; */
+  text-decoration: none;
+}
